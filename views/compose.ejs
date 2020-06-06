@@ -1,0 +1,13 @@
+
+<%- include('Partials/header'); -%>
+<h1>Home</h1>
+
+<form class="form-group" action="/compose" method="post">
+  <label>Title</label>
+  <input class="form-control" type="text" name="title" value="">
+  <label>Post</label>
+   <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name= "post"></textarea>
+  <button class = "btn btn-primary publish" type="submit" name="button">Publish</button>
+</form>
+
+<%- include('Partials/footer'); -%>
